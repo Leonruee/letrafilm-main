@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    background-image: url('/Ressources/Images/FirstFrame.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.liste {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 303px;
+
+}
+
+.liste a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.liste a:hover {
+    color: orangered;
+}
+
+.content{
+    margin: 20px;
+    font-size: 1rem;
+    color: white;
+}
